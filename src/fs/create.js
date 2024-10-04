@@ -1,5 +1,5 @@
-import fs from 'node:fs/promises';
-import { join, dirname } from 'node:path';
+import fs from 'fs/promises';
+import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const create = async () => {
