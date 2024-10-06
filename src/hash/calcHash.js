@@ -1,6 +1,6 @@
 import { createReadStream } from 'node:fs';
 import { stdout } from 'node:process';
-const { createHash } = await import('node:crypto');
+import { createHash } from 'node:crypto';
 import { join } from 'path';
 
 const calculateHash = async () => {
